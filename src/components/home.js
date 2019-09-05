@@ -6,8 +6,8 @@ class Home extends Component {
     return (
       <div className="content">
         <div className ="lineHeight">
-          <h1 style = {{textAlign: 'center', fontSize: '64px', fontWeight: 'bold'}}>Joonhyeok Ahn</h1>
-          <h2 style = {{textAlign: 'center', fontSize: '32px'}}>B.S in Computer Science</h2>
+          <h1 style = {{textAlign: 'center', fontWeight: 'bold'}}>Joonhyeok Ahn</h1>
+          <h2 style = {{textAlign: 'center'}}>B.S in Computer Science</h2>
         </div>
         <br/><br/>
         <p className= "missionStatement">_______ Empower people to achieve more by providing software</p>

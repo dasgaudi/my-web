@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ExperienceCard from './experienceCard';
 import experienceData from '../experienceJson';
 
-// import '../experience.css';
+import '../experience.css';
 
 class Experience extends Component {
 
@@ -12,7 +12,9 @@ class Experience extends Component {
 
     return (
       <div>
-        <h2>My Experience</h2>
+        <br/>
+        <h2 className="centered" style = {{fontWeight: "bold"}}>My Experience</h2>
+        <br/>
         {experienceComponents}
       </div>
     )

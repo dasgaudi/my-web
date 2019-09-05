@@ -2,3 +2,33 @@
   border-width: 1px;
   border-color: white;
 }
+
+.centered {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  margin-top: 75px;
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 2px solid;
+  position: relative;
+  border-color: #889EB7;
+}
+
+.circle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  border: 1px dotted;
+  border-width: 0 0 0 1px;
+  width: 1px;
+  height: 150px;
+}

@@ -1,0 +1,12 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.item {
+  width: 150px;
+  flex-basis: 150px;
+  margin: 10px;
+  flex-grow: 0.3;
+}

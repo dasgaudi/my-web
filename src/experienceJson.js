@@ -1,12 +1,5 @@
 const experienceJson = [
-    {
-        id: "1",
-        position: "iOS Developer Intern",
-        companyName: "MyriadMobile",
-        url: "https://myraidmobile.com",
-        period: "May - Aug 2019",
-        description: ""
-    },
+
     {
         id: "2",
         position: "Web Developer Intern",
@@ -15,7 +8,14 @@ const experienceJson = [
         period: "Sep - Dec 2019",
         description: ""
     },
-
+    {
+        id: "1",
+        position: "iOS Developer Intern",
+        companyName: "MyriadMobile",
+        url: "www.myraidmobile.com",
+        period: "May - Aug 2019",
+        description: ""
+    }
 
 ]
 

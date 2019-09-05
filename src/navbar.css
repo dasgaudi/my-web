@@ -4,42 +4,50 @@
 
 hr {
   border: 0.5px solid gray;
+  margin-top: -1px;
 }
 
 
 ul {
   list-style-type: none;
-  background-color: #333;
+  background-color: white;
 }
 
 li {
   display: inline;
-  color: white;
+  /* color: black; */
 }
-
 .navbarRight {
   float: right;
-  margin-right: 30px;
 }
 
 .navbarImages {
+  display: inline;
   width: 25px;
   height: 25px;
-  margin-right: 10px;
 }
 
 .nav-link {
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
-  color:white;
+  color:black;
+}
+
+.nav-link:active {
+  /* color:blue; */
+}
+
+.nav-link:hover {
+  font-size: 20px;
+  color: black;
 }
 
 .nav-link:visited {
-  color:white;
+  /* color:black; */
 }
 
-.id {
+/* .id {
   position: relative;
   bottom: 25px;
-}
+} */
