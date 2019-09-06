@@ -12,7 +12,10 @@ class App extends Component {
           <div>
 
             <Navbar />
-            <Splash />
+            <div styles = {{marginLeft: '100px'}}>
+              <Splash />
+            </div>
+
           </div>
       )
   }
