@@ -30,7 +30,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <Animated animationIn="fadeIn" animationInDuration={6000} isVisible={true}>
+      <Animated animationIn="fadeIn" animationInDuration={3000} isVisible={true}>
       <Router>
         <div>
           <nav className="navbar navbar-expand-lg">
