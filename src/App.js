@@ -10,12 +10,8 @@ class App extends Component {
   render() {
       return (
           <div>
-
             <Navbar />
-            <div styles = {{marginLeft: '100px'}}>
-              <Splash />
-            </div>
-
+            <Splash />
           </div>
       )
   }

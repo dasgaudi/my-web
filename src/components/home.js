@@ -12,7 +12,7 @@ class Home extends Component {
         <br/><br/>
         <p className= "missionStatement">_______ Empower people to achieve more by providing software</p>
         <br/>
-        <div style = {{width: '70%'}} >
+        <div style = {{width: '70%'}}>
           <p className ="description"> There are a lot of problems that can be solved by technologies. My Goal is to create useful software that can help people to solve those problems. To achieve my goal, I've tried to explore and learn a wide range of technologies from web development to mobile devopment, to machine learning recently.</p>
         </div>
         <img src={require(`../myprofile.png`)} alt="my profile" className="profileImg"/>

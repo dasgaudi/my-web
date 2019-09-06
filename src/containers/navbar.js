@@ -19,10 +19,10 @@ class Navbar extends React.Component {
         <div>
           <nav className="navbar navbar-expand-lg">
             <ul className="navbar-nav mr-auto">
-              <li><NavLink to="MyWebsite/" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Joonhyeok Ahn</NavLink></li>
-              <li><NavLink to="MyWebsite/experience" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Experience</NavLink></li>
-              <li><NavLink to="MyWebsite/project" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Projects</NavLink></li>
-              <li><NavLink to="MyWebsite/skill" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Skills</NavLink></li>
+              <li><NavLink to="/" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Joonhyeok Ahn</NavLink></li>
+              <li><NavLink to="/experience" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Experience</NavLink></li>
+              <li><NavLink to="/project" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Projects</NavLink></li>
+              <li><NavLink to="/skill" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Skills</NavLink></li>
               <li><a className="nav-link" style = {{marginLeft: "10px"}} href={require(`../RESUME.pdf`)} target="_blank">Resume</a></li>
             </ul>
             <div className="narbarRight">
@@ -33,10 +33,10 @@ class Navbar extends React.Component {
           <hr/>
 
           <Switch>
-            <Route exact path = 'MyWebsite/' component={Home} />
-            <Route path='MyWebsite/experience' component={Experience} />
-            <Route path='MyWebsite/project' component={Project} />
-            <Route path='MyWebsite/skill' component={Skill} />
+            <Route exact path = '/' component={Home} />
+            <Route path='/experience' component={Experience} />
+            <Route path='/project' component={Project} />
+            <Route path='/skill' component={Skill} />
           </Switch>
         </div>
       </Router>
