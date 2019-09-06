@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.599293ca.chunk.css",
+    "main.css": "/MyWebsite/static/css/main.fcf527fd.chunk.css",
     "main.js": "/MyWebsite/static/js/main.9add5bb5.chunk.js",
     "main.js.map": "/MyWebsite/static/js/main.9add5bb5.chunk.js.map",
     "runtime~main.js": "/MyWebsite/static/js/runtime~main.b02b9cf1.js",
@@ -9,10 +9,10 @@
     "static/js/2.2c0e936e.chunk.js": "/MyWebsite/static/js/2.2c0e936e.chunk.js",
     "static/js/2.2c0e936e.chunk.js.map": "/MyWebsite/static/js/2.2c0e936e.chunk.js.map",
     "index.html": "/MyWebsite/index.html",
-    "precache-manifest.a3fc7480b96cbd22021999f97db70a7f.js": "/MyWebsite/precache-manifest.a3fc7480b96cbd22021999f97db70a7f.js",
+    "precache-manifest.5aa49682cf826a5fbf488684a3be8370.js": "/MyWebsite/precache-manifest.5aa49682cf826a5fbf488684a3be8370.js",
     "service-worker.js": "/MyWebsite/service-worker.js",
     "static/css/2.c0851dc3.chunk.css.map": "/MyWebsite/static/css/2.c0851dc3.chunk.css.map",
-    "static/css/main.599293ca.chunk.css.map": "/MyWebsite/static/css/main.599293ca.chunk.css.map",
+    "static/css/main.fcf527fd.chunk.css.map": "/MyWebsite/static/css/main.fcf527fd.chunk.css.map",
     "static/media/BebasNeue-Bold.ttf": "/MyWebsite/static/media/BebasNeue-Bold.50c63ebc.ttf",
     "static/media/BebasNeue-Bold.otf": "/MyWebsite/static/media/BebasNeue-Bold.95c15f5d.otf",
     "static/media/BebasNeue-Book.ttf": "/MyWebsite/static/media/BebasNeue-Book.0e0f3f2f.ttf",
