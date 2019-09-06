@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom'
 import {Animated} from "react-animated-css";
-
 import Home from "../components/home";
 import Experience from "../components/experience";
 import Project from "../components/project";
@@ -14,7 +13,8 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <Animated animationIn="fadeIn" animationInDuration={3000} isVisible={true}>
+      <div>
+      <Animated animationIn="fadeIn" animationInDuration={4000} isVisible={true}>
       <Router>
         <div>
           <nav className="navbar navbar-expand-lg">
@@ -33,14 +33,18 @@ class Navbar extends React.Component {
           <hr/>
 
           <Switch>
-            <Route exact path = '/' component={Home} />
+            <Route exact path = '/MyWebsite' component={Home} />
             <Route path='/experience' component={Experience} />
             <Route path='/project' component={Project} />
             <Route path='/skill' component={Skill} />
           </Switch>
+
         </div>
       </Router>
+
       </Animated>
+
+      </div>
 
 
     )
