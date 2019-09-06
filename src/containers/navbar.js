@@ -12,22 +12,6 @@ import '../navbar.css';
 
 class Navbar extends React.Component {
 
-  // constructor(props) {
-  //   super(props);
-  //   this.handleToggle = this.handleToggle.bind(this);
-  //   this.state = {
-  //     isOpen: false,
-  //   };
-  // }
-  //
-  // handleToggle() {
-  //   this.setState(prev => {}
-  //     return {
-  //       isOpen: !prev.state.isOpen
-  //     }
-  //   )
-  // }
-
   render() {
     return (
       <Animated animationIn="fadeIn" animationInDuration={3000} isVisible={true}>
@@ -49,7 +33,7 @@ class Navbar extends React.Component {
           <hr/>
 
           <Switch>
-            <Route path = '/' component={Home} />
+            <Route exact path = '/MyWebsite' component={Home} />
             <Route path='/experience' component={Experience} />
             <Route path='/project' component={Project} />
             <Route path='/skill' component={Skill} />
