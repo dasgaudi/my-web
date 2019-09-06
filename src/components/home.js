@@ -8,7 +8,7 @@ class Home extends Component {
       <div style = {{textAlign: 'center'}}>
         <div className ="lineHeight boxContainer">
             <div className="item">
-              <img src={require(`../myprofile.png`)} alt="my profile" style = {{ width: '60%', borderRadius: '20px'}}/>
+              <img src={require(`../myprofile.png`)} alt="my profile" style = {{ width: '90%', borderRadius: '20px'}}/>
               <br/>
               <br/>
               <h1 style = {{textAlign: 'center'}}>Joonhyeok Ahn</h1>
