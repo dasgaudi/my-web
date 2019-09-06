@@ -9,6 +9,12 @@
   margin-left: auto;
 }
 
+.description {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
 .profileImg {
   width: 20%;
   height: 25%;
