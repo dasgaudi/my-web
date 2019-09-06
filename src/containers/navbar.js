@@ -49,7 +49,7 @@ class Navbar extends React.Component {
           <hr/>
 
           <Switch>
-            <Route exact path = '/MyWebsite' component={Home} />
+            <Route path = '/' component={Home} />
             <Route path='/experience' component={Experience} />
             <Route path='/project' component={Project} />
             <Route path='/skill' component={Skill} />
