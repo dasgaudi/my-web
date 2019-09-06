@@ -6,16 +6,16 @@
 }
 
 .box {
-  width: 400px;
-  height: 400px;
+  width: 30%;
+  height: 30%;
   /* background: #ff1c68; */
   transform-origin: 50% 50%;
   margin: 0 auto;
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -200px;
-  margin-left: -200px;
+  margin-top: -15%;
+  margin-left: -15%;
 }
 
 .myimage {
