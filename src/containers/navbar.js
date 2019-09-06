@@ -35,7 +35,7 @@ class Navbar extends React.Component {
         <div>
           <nav className="navbar navbar-expand-lg">
             <ul className="navbar-nav mr-auto">
-              <li><NavLink to="/MyWebsite" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Joonhyeok Ahn</NavLink></li>
+              <li><NavLink to="/" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Joonhyeok Ahn</NavLink></li>
               <li><NavLink to="/experience" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Experience</NavLink></li>
               <li><NavLink to="/project" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Projects</NavLink></li>
               <li><NavLink to="/skill" activeStyle={{ color:'#127bfe' }} className="nav-link" style = {{marginLeft: "10px"}}>Skills</NavLink></li>
