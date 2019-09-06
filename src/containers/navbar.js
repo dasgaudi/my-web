@@ -50,9 +50,9 @@ class Navbar extends React.Component {
 
           <Switch>
             <Route path = '/' component={Home} />
-            <Route path='/experience' component={Experience} />
-            <Route path='/project' component={Project} />
-            <Route path='/skill' component={Skill} />
+            <Route path='/MyWebsite/experience' component={Experience} />
+            <Route path='/MyWebsite/project' component={Project} />
+            <Route path='/MyWebsite/skill' component={Skill} />
           </Switch>
         </div>
       </Router>
