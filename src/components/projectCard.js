@@ -38,7 +38,7 @@ class ProjectCard extends React.Component {
             <div>
               <h3>Accomplished with</h3>
 
-              <div style ={{marginLeft: '10px'}}>
+              <div style ={{marginLeft: 'auto'}}>
                 {this.props.project.technology.map(function(technology, index){
                     return <h5>- {technology}</h5>;
                   })}
