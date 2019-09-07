@@ -18,7 +18,7 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 /* STYLES GO HERE */
   .item {
-    flex-basis: 50%;
+    min-width: 50%;
     margin: 10px;
     flex-grow: 0.3;
   }
