@@ -10,8 +10,8 @@
 }
 
 .circle {
-  margin-top: 5vmin;
-  margin-bottom: 5vmin;
+  margin-top: 5vmax;
+  margin-bottom: 5vmax;
   margin-right: 10px;
   height: 30px;
   width: 30px;

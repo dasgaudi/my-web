@@ -11,8 +11,8 @@ class Home extends Component {
               <img src={require(`../myprofile.png`)} alt="my profile" style = {{ width: '100%', borderRadius: '20px'}}/>
               <br/>
               <br/>
-              <p style = {{textAlign: 'center', marginLeft: '2%', marginRight: '2%', fontSize: '3vmin', fontWeight: 'bold'}}>Joonhyeok Ahn</p>
-              <p style = {{textAlign: 'center', margin: '0', fontSize: '2.4vmin', fontWeight: 'bold'}}>B.S in Computer Science</p>
+              <p style = {{textAlign: 'center', marginLeft: '2%', marginRight: '2%', fontSize: '3vmax', fontWeight: 'bold'}}>Joonhyeok Ahn</p>
+              <p style = {{textAlign: 'center', margin: '0', fontSize: '2.0vmax', fontWeight: 'bold'}}>B.S in Computer Science</p>
               <br/>
               <div style = {{textAlign: 'left', marginLeft: '2%', marginRight: '2%'}}>
                 <p className= "missionStatement">_______ Empower people to achieve more by providing software</p>

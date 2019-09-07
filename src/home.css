@@ -15,14 +15,14 @@
 }
 
 .missionStatement {
-  font-size: 2.0vmin;
+  font-size: 2.0vmax;
   font-weight: bold;
   margin-left: auto;
   margin-right: auto;
 }
 
 .description {
-  font-size: 1.8vmin;
+  font-size: 1.8vmax;
   /* fontWeight: bold; */
   margin-left: 10%;
   margin-right: 10%;

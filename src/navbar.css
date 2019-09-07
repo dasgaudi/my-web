@@ -28,7 +28,7 @@ li {
 }
 
 .nav-link {
-  font-size: 1.6vmin;
+  font-size: 1.6vmax;
   font-weight: bold;
   text-decoration: none;
   color:black;
