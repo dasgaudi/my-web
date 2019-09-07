@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ExperienceCard from './experienceCard';
-import experienceData from '../experienceJson';
+import experienceData from '../json/experienceJson';
 
-import '../experience.css';
+import '../css/experience.css';
 
 class Experience extends Component {
 

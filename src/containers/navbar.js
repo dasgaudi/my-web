@@ -7,7 +7,7 @@ import Experience from "../components/experience";
 import Project from "../components/project";
 import Skill from "../components/skill";
 // css
-import '../navbar.css';
+import '../css/navbar.css';
 
 class Navbar extends React.Component {
 
@@ -26,8 +26,8 @@ class Navbar extends React.Component {
               <li><a className="nav-link" style = {{marginLeft: "10px"}} href={require(`../RESUME.pdf`)} target="_blank">Resume</a></li>
             </ul>
             <div className="narbarRight">
-              <li style = {{marginRight: "10px"}}><a href="https://github.com/jooncsguy" target="_blank"><img className="navbarImages" src={require(`../octocat.png`)} alt="github img" /></a></li>
-              <li style = {{marginRight: "10px"}}><a href="https://www.linkedin.com/in/joonhyeok-ahn-b3600515b/" target="_blank"><img className="navbarImages" src={require(`../linkedin.png`)} alt="linkedin img"/></a></li>
+              <li style = {{marginRight: "10px"}}><a href="https://github.com/jooncsguy" target="_blank"><img className="navbarImages" src={require(`../image/octocat.png`)} alt="github img" /></a></li>
+              <li style = {{marginRight: "10px"}}><a href="https://www.linkedin.com/in/joonhyeok-ahn-b3600515b/" target="_blank"><img className="navbarImages" src={require(`../image/linkedin.png`)} alt="linkedin img"/></a></li>
             </div>
           </nav>
           <hr/>

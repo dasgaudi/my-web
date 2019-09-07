@@ -20,25 +20,26 @@ class ProjectCard extends React.Component {
               backgroundColor: '#FEFEFC',
             }}
           >
-            <img src = {require('../' + this.props.project.imageSrc)}
+            <img src = {require('../image/' + this.props.project.imageSrc)}
                  alt="find your event app logo"
-                 style = {{ margin: 'auto', width: '100%', height: 'auto'}}
+
             />
             <br/>
             <br/>
 
             <div style = {{margin: 'auto'}}>
-              <h4 style = {{textAlign: 'left', fontSize: '2.2vmax'}}>{this.props.project.title}</h4>
-              <p style = {{ fontSize: '1.8vmax' }}>{this.props.project.description}</p>
-              <button style = {{ fontSize: '1.8vmax' }}> Click here to see details </button>
+              <h4>{this.props.project.title}</h4>
+              <br/>
+              <p>{this.props.project.description}</p>
+              <button> Click here to see details </button>
             </div>
           </FrontSide>
           <BackSide
             style={{ backgroundColor: '#FEFEFC'}}>
             <div>
-              <p style = {{ margin: 'auto', fontWeight: 'bold', fontSize: '2.4vmax'}}>Accomplished with</p>
+              <h4>Accomplished with</h4>
               <br/>
-              <div style ={{marginLeft: 'auto', fontSize: '1.8vmax'}}>
+              <div style ={{marginLeft: 'auto'}}>
                 {this.props.project.technology.map(function(technology, index){
                     return <h5>- {technology}</h5>;
                   })}
