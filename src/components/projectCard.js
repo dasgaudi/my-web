@@ -28,17 +28,17 @@ class ProjectCard extends React.Component {
             <br/>
 
             <div style = {{margin: 'auto'}}>
-              <h4 style = {{textAlign: 'left'}}>{this.props.project.title}</h4>
-              <p>{this.props.project.description}</p>
-              <button> Click here to see details </button>
+              <h4 style = {{textAlign: 'left', fontSize: '2.2vmin'}}>{this.props.project.title}</h4>
+              <p style = {{ fontSize: '1.8vmin' }}>{this.props.project.description}</p>
+              <button style = {{ fontSize: '1.8vmin' }}> Click here to see details </button>
             </div>
           </FrontSide>
           <BackSide
             style={{ backgroundColor: '#FEFEFC'}}>
             <div>
-              <h3>Accomplished with</h3>
-
-              <div style ={{marginLeft: 'auto'}}>
+              <p style = {{ margin: 'auto', fontWeight: 'bold', fontSize: '2.4vmin'}}>Accomplished with</p>
+              <br/>
+              <div style ={{marginLeft: 'auto', fontSize: '1.8vmin'}}>
                 {this.props.project.technology.map(function(technology, index){
                     return <h5>- {technology}</h5>;
                   })}

@@ -13,7 +13,7 @@ class Experience extends Component {
     return (
       <div>
         <br/>
-        <h2 className="centered" style = {{fontWeight: "bold"}}>My Experience</h2>
+        <p className="centered" style = {{fontWeight: "bold", fontSize: '2.8vmin'}}>My Experience</p>
         <br/>
         {experienceComponents}
       </div>
