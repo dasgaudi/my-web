@@ -47,6 +47,59 @@ li {
   /* color:black; */
 }
 
+/* iPhone Xr & XSMax */
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+
+    .nav-link:active {
+      font-size: 2.0vmax;
+    }
+}
+
+/* iPhone Xr & XSMax */
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+
+    .nav-link:active {
+      font-size: 2.0vmax;
+    }
+}
+
+/* iPhone XS & X */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+/* STYLES GO HERE */
+  .nav-link:active {
+    font-size: 2.0vmax;
+  }
+}
+
+/* iPhone 6, 7, & 8 */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+/* STYLES GO HERE */
+  .nav-link:active {
+    font-size: 2.0vmax;
+  }
+}
+
+/* iPhone 5 & 5S */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) { /* STYLES GO HERE */
+  .nav-link:active {
+    font-size: 2.0vmax;
+  }
+}
+
 
 @media screen and (min-width: 600px){
   .nav-link {
@@ -54,11 +107,6 @@ li {
     font-weight: bold;
     text-decoration: none;
     color:black;
-  }
-
-  .nav-link:active {
-    font-size: 2.0vmax;
-    color: black;
   }
 }
 
@@ -69,11 +117,6 @@ li {
     text-decoration: none;
     color:black;
   }
-
-  .nav-link:active {
-    font-size: 2.0vmax;
-    color: black;
-  }
 }
 
 @media screen and (min-width: 992px){
@@ -82,11 +125,6 @@ li {
     font-weight: bold;
     text-decoration: none;
     color:black;
-  }
-
-  .nav-link:active {
-    font-size: 2.0vmax;
-    color: black;
   }
 }
 
@@ -97,11 +135,6 @@ li {
     text-decoration: none;
     color:black;
   }
-
-  .nav-link:active {
-    font-size: 2.0vmax;
-    color: black;
-  }
 }
 
 @media screen and (min-width: 1400px){
@@ -110,10 +143,5 @@ li {
     font-weight: bold;
     text-decoration: none;
     color:black;
-  }
-
-  .nav-link:active {
-    font-size: 2.0vmax;
-    color: black;
   }
 }
