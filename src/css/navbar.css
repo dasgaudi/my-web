@@ -53,7 +53,7 @@ li {
     and (device-height : 896px)
     and (-webkit-device-pixel-ratio : 2) {
 
-    .nav-link:active {
+    .nav-link:hover {
       font-size: 2.0vmax;
     }
 }
@@ -64,7 +64,7 @@ li {
     and (device-height : 896px)
     and (-webkit-device-pixel-ratio : 2) {
 
-    .nav-link:active {
+    .nav-link:hover {
       font-size: 2.0vmax;
     }
 }
@@ -75,7 +75,7 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 /* STYLES GO HERE */
-  .nav-link:active {
+  .nav-link:hover {
     font-size: 2.0vmax;
   }
 }
@@ -86,7 +86,7 @@ and (-webkit-device-pixel-ratio : 3) {
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
 /* STYLES GO HERE */
-  .nav-link:active {
+  .nav-link:hover {
     font-size: 2.0vmax;
   }
 }
@@ -95,53 +95,115 @@ and (max-device-width : 667px) {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
-  .nav-link:active {
+  .nav-link:hover {
     font-size: 2.0vmax;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  /* body {
+    background: yellow;
+  } */
+  .nav-link {
+    font-size: 1.6vmax;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+  }
+
+  .nav-link:hover {
+    font-size: 1.8vmax;
+    color: black;
   }
 }
 
 
 @media screen and (min-width: 600px){
+  /* body {
+    background: red;
+  } */
   .nav-link {
     font-size: 1.6vmax;
     font-weight: bold;
     text-decoration: none;
     color:black;
+  }
+
+  .nav-link:hover {
+    font-size: 1.8vmax;
+    color: black;
   }
 }
 
 @media only screen and (min-width: 768px){
+
+  /* body {
+    background: grey;
+  } */
   .nav-link {
     font-size: 1.6vmax;
     font-weight: bold;
     text-decoration: none;
     color:black;
   }
+
+  .nav-link:hover {
+    font-size: 1.8vmax;
+    color: black;
+  }
 }
 
 @media screen and (min-width: 992px){
+
+  /* body {
+    background: green;
+  } */
   .nav-link {
     font-size: 1.6vmin;
     font-weight: bold;
     text-decoration: none;
     color:black;
+  }
+
+  .nav-link:hover {
+    font-size: 2.0vmin;
+    color: black;
   }
 }
 
 @media screen and (min-width: 1200px){
+
+  /* body {
+    background: white;
+  } */
   .nav-link {
     font-size: 1.6vmin;
     font-weight: bold;
     text-decoration: none;
     color:black;
   }
+
+  .nav-link:hover {
+    font-size: 2.0vmin;
+    color: black;
+  }
 }
 
 @media screen and (min-width: 1400px){
+  /* body {
+    background :pink
+  } */
+
   .nav-link {
     font-size: 1.6vmin;
     font-weight: bold;
     text-decoration: none;
     color:black;
+  }
+
+  .nav-link:hover {
+    font-size: 2.0vmin;
+    color: black;
   }
 }
