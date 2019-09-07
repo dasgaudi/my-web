@@ -1,5 +1,4 @@
 .boxContainer {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,10 +8,19 @@
 
 
 .item {
-  width: 50%;
-  flex: 1 50%;
+  width: 100vmin;
+  flex: auto;
   height: auto; /* Or whatever */
   padding: 0;
+}
+
+.nestedItem {
+  /* max-width: 80vmin;
+  min-width: 60vmin; */
+  width: 100vmin;
+  text-align: left;
+  margin-left: 2%;
+  marginRight: 2%;
 }
 
 .missionStatement {
@@ -40,4 +48,82 @@
   padding: 0;
   /* margin-right: 10px; */
   float: right;
+}
+
+/* iPhone Xr & XSMax */
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+
+      .nestedItem {
+        max-width: 80vmin;
+        min-width: 60vmin;
+        width: 70vmin;
+        text-align: left;
+        margin-left: 2%;
+        marginRight: 2%;
+      }
+}
+
+/* iPhone Xr & XSMax */
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+
+      .nestedItem {
+        max-width: 80vmin;
+        min-width: 60vmin;
+        width: 70vmin;
+        text-align: left;
+        margin-left: 2%;
+        marginRight: 2%;
+      }
+}
+
+/* iPhone XS & X */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+/* STYLES GO HERE */
+  .nestedItem {
+    max-width: 80vmin;
+    min-width: 60vmin;
+    width: 70vmin;
+    text-align: left;
+    margin-left: 2%;
+    marginRight: 2%;
+  }
+}
+
+/* iPhone 6, 7, & 8 */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+/* STYLES GO HERE */
+  .nestedItem {
+    max-width: 80vmin;
+    min-width: 60vmin;
+    width: 70vmin;
+    text-align: left;
+    margin-left: 2%;
+    marginRight: 2%;
+  }
+}
+
+/* iPhone 5 & 5S */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) { /* STYLES GO HERE */
+  .nestedItem {
+    max-width: 80vmin;
+    min-width: 60vmin;
+    width: 70vmin;
+    text-align: left;
+    margin-left: 2%;
+    marginRight: 2%;
+  }
 }

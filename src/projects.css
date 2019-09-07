@@ -28,6 +28,20 @@
     }
 }
 
+/* iPhone Xr & XSMax */
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+
+    .item {
+      max-width: 50%;
+      min-width: 40%;
+      margin: 10px;
+      flex-grow: 0.3;
+    }
+}
+
 /* iPhone XS & X */
 @media only screen
 and (min-device-width : 375px)
