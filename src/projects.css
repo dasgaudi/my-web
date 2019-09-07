@@ -21,7 +21,8 @@
     and (-webkit-device-pixel-ratio : 2) {
 
     .item {
-      max-width: 50%;
+      max-width: 80%;
+      width: 75%;
       min-width: 40%;
       margin: 10px;
       flex-grow: 0.3;
@@ -34,12 +35,13 @@
     and (device-height : 896px)
     and (-webkit-device-pixel-ratio : 2) {
 
-    .item {
-      max-width: 50%;
-      min-width: 40%;
-      margin: 10px;
-      flex-grow: 0.3;
-    }
+      .item {
+        max-width: 80%;
+        width: 75%;
+        min-width: 40%;
+        margin: 10px;
+        flex-grow: 0.3;
+      }
 }
 
 /* iPhone XS & X */
@@ -49,7 +51,8 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 /* STYLES GO HERE */
   .item {
-    max-width: 50%;
+    max-width: 80%;
+    width: 75%;
     min-width: 40%;
     margin: 10px;
     flex-grow: 0.3;
@@ -63,7 +66,8 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) {
 /* STYLES GO HERE */
   .item {
-    max-width: 50%;
+    max-width: 80%;
+    width: 75%;
     min-width: 40%;
     margin: 10px;
     flex-grow: 0.3;
@@ -75,7 +79,8 @@ and (max-device-width : 667px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
   .item {
-    max-width: 50%;
+    max-width: 80%;
+    width: 75%;
     min-width: 40%;
     margin: 10px;
     flex-grow: 0.3;

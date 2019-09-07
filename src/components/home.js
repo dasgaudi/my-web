@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div style = {{textAlign: 'center'}}>
         <div className ="lineHeight boxContainer">
-            <div className="item">
+            <div style = {{ width: '80%'}}className="item">
               <img src={require(`../myprofile.png`)} alt="my profile" style = {{ width: '90%', borderRadius: '20px'}}/>
               <br/>
               <br/>

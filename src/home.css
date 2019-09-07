@@ -1,6 +1,6 @@
 .boxContainer {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
@@ -8,8 +8,9 @@
 
 
 .item {
-  width: 100vmin;
-  flex: auto;
+  /* width: 100vmin; */
+  /* flex-basis: 80%; */
+  /* flex: auto; */
   height: auto; /* Or whatever */
   padding: 0;
 }
@@ -50,6 +51,67 @@
   float: right;
 }
 
+@media screen and (min-width: 600px){
+      .nestedItem {
+        /* max-width: 120vmin;
+        min-width: 60vmin; */
+        /* width: 20%; */
+        width: 90vmin;
+        text-align: left;
+        margin-left: 2%;
+        marginRight: 2%;
+      }
+}
+
+@media only screen and (min-width: 768px){
+  body {
+    background: blue;
+  }
+
+  .nestedItem {
+    /* max-width: 120vmin;
+    min-width: 60vmin; */
+    width: 100vmax;
+    text-align: left;
+    margin-left: 2%;
+    marginRight: 2%;
+  }
+}
+
+@media screen and (min-width: 992px){
+
+  body {
+    background: red;
+  }
+
+  .nestedItem {
+    max-width: 120vmin;
+    min-width: 60vmin;
+    width: 100vmax;
+    text-align: left;
+    margin-left: 2%;
+    marginRight: 2%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+
+  body {
+    background: yellow;
+  }
+
+
+  .nestedItem {
+    max-width: 120vmin;
+    min-width: 60vmin;
+    width: 100vmax;
+    text-align: left;
+    margin-left: 2%;
+    marginRight: 2%;
+  }
+}
+
+
 /* iPhone Xr & XSMax */
 @media only screen
     and (device-width : 414px)
@@ -57,9 +119,9 @@
     and (-webkit-device-pixel-ratio : 2) {
 
       .nestedItem {
-        max-width: 80vmin;
+        max-width: 90vmin;
         min-width: 60vmin;
-        width: 70vmin;
+        width: 80vmin;
         text-align: left;
         margin-left: 2%;
         marginRight: 2%;
@@ -73,9 +135,9 @@
     and (-webkit-device-pixel-ratio : 2) {
 
       .nestedItem {
-        max-width: 80vmin;
+        max-width: 90vmin;
         min-width: 60vmin;
-        width: 70vmin;
+        width: 80vmin;
         text-align: left;
         margin-left: 2%;
         marginRight: 2%;
@@ -89,9 +151,9 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 /* STYLES GO HERE */
   .nestedItem {
-    max-width: 80vmin;
+    max-width: 90vmin;
     min-width: 60vmin;
-    width: 70vmin;
+    width: 80vmin;
     text-align: left;
     margin-left: 2%;
     marginRight: 2%;
@@ -105,9 +167,9 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) {
 /* STYLES GO HERE */
   .nestedItem {
-    max-width: 80vmin;
+    max-width: 90vmin;
     min-width: 60vmin;
-    width: 70vmin;
+    width: 80vmin;
     text-align: left;
     margin-left: 2%;
     marginRight: 2%;
@@ -119,9 +181,9 @@ and (max-device-width : 667px) {
 and (min-device-width : 320px)
 and (max-device-width : 568px) { /* STYLES GO HERE */
   .nestedItem {
-    max-width: 80vmin;
+    max-width: 90vmin;
     min-width: 60vmin;
-    width: 70vmin;
+    width: 80vmin;
     text-align: left;
     margin-left: 2%;
     marginRight: 2%;
