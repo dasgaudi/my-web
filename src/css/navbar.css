@@ -35,7 +35,7 @@ li {
 }
 
 .nav-link:active {
-  /* color:blue; */
+  font-size: 2.0vmin;
 }
 
 .nav-link:hover {
@@ -56,7 +56,7 @@ li {
     color:black;
   }
 
-  .nav-link:hover {
+  .nav-link:active {
     font-size: 2.0vmax;
     color: black;
   }
@@ -70,7 +70,7 @@ li {
     color:black;
   }
 
-  .nav-link:hover {
+  .nav-link:active {
     font-size: 2.0vmax;
     color: black;
   }
@@ -84,7 +84,7 @@ li {
     color:black;
   }
 
-  .nav-link:hover {
+  .nav-link:active {
     font-size: 2.0vmax;
     color: black;
   }
@@ -98,7 +98,7 @@ li {
     color:black;
   }
 
-  .nav-link:hover {
+  .nav-link:active {
     font-size: 2.0vmax;
     color: black;
   }
@@ -112,7 +112,7 @@ li {
     color:black;
   }
 
-  .nav-link:hover {
+  .nav-link:active {
     font-size: 2.0vmax;
     color: black;
   }
