@@ -7,10 +7,24 @@
 
 .item {
   /* width: 30%; */
-  flex-basis: 30%;
+  /* flex-basis: 30%; */
   margin: 10px;
-  flex-grow: 0.3;
+  min-width: 30$;
+  /* flex-grow: 0.3; */
 }
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+
+    .item {
+      min-width: 50%;
+      margin: 10px;
+      flex-grow: 0.3;
+    }
+}
+
+
 
 @media only screen
 and (min-device-width : 375px)
