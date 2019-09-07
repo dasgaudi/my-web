@@ -1,6 +1,6 @@
 .boxContainer {
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
@@ -8,9 +8,7 @@
 
 
 .item {
-  /* width: 100vmin; */
-  /* flex-basis: 80%; */
-  /* flex: auto; */
+  flex: 0 0 80%;
   height: auto; /* Or whatever */
   padding: 0;
 }
