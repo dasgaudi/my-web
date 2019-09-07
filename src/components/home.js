@@ -19,7 +19,7 @@ class Home extends Component {
                 <div className ="nestedItem">
                   <h3>_______ Empower people to achieve more by providing software</h3>
                   <br/>
-                  <p> There are a lot of problems that can be solved by technologies. My Goal is to create useful software that can help people to solve those problems. To achieve my goal, I've tried to explore and learn a wide range of technologies from web development to mobile devopment, to machine learning recently.</p>
+                  <p> There are a lot of problems that can be solved by technologies. My goal is to create useful software that can help people to solve those problems. To achieve my goal, I've tried to explore and learn a wide range of technologies from web development to mobile development, to machine learning recently.</p>
                 </div>
               </div>
             </div>
