@@ -9,7 +9,8 @@ class Project extends Component {
 
     return (
       <div>
-        <h2 style ={{ textAlign: 'center', fontWeight: 'bold'}}>Projects</h2>
+        <br/>
+        <h3 style ={{ textAlign: 'center', fontWeight: 'bold'}}>Projects</h3>
         <br/>
         <div className="flexbox-container">
           {projectsComponent}
