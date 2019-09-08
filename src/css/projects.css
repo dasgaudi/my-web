@@ -211,7 +211,7 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
   }
 
   h4 {
-  margin: auto;
+   margin: auto;
    text-align: left;
    font-size: 2.2vmax;
    font-weight: bold;

@@ -33,3 +33,177 @@
   width: 1px;
   height: 150px;
 }
+
+h1 {
+  text-align: left;
+  margin:auto;
+  font-size: 3vmax;
+}
+
+h3 {
+  text-align: left;
+  margin:auto;
+  font-size: 2vmax;
+}
+
+p {
+  font-size: 1.8vmax;
+  margin:auto;
+
+  /* fontWeight: bold; */
+  margin-left: auto;
+}
+
+/* iPhone Xr & XSMax */
+@media only screen
+    and (device-width : 414px)
+    and (device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+
+}
+
+/* iPhone XS & X */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+/* STYLES GO HERE */
+
+}
+
+/* iPhone 6, 7, & 8 */
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+/* STYLES GO HERE */
+
+}
+
+/* iPhone 5 & 5S */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) { /* STYLES GO HERE */
+
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: left;
+    font-size: 2.2vmax;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 2.0vmax;
+    /* font-style: italic; */
+  }
+
+  p {
+    font-size: 1.8vmin;
+    /* font-weight: lighter; */
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 600px){
+  h1 {
+    text-align: left;
+    font-size: 2.2vmax;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 2.0vmax;
+    /* font-style: italic; */
+  }
+
+  p {
+    font-size: 1.8vmin;
+    /* font-weight: lighter; */
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    text-align: left;
+    font-size: 3vmin;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 2.4vmin;
+    /* font-style: italic; */
+  }
+
+  p {
+    font-size: 1.6vmin;
+    /* font-weight: lighter; */
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 992px){
+
+  h1 {
+    text-align: left;
+    font-size: 3vmin;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 2.4vmin;
+    /* font-style: italic; */
+  }
+
+  p {
+    font-size: 2.2vmin;
+    /* font-weight: lighter; */
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  /* body {
+    background: pink;
+  } */
+  h1 {
+    text-align: left;
+    font-size: 3vmin;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 2.4vmin;
+    /* font-style: italic; */
+  }
+
+  p {
+    font-size: 2.2vmin;
+    /* font-weight: lighter; */
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  /* body {
+    background: pink;
+  } */
+  h1 {
+    text-align: left;
+    font-size: 3vmin;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 2.4vmin;
+    /* font-style: italic; */
+  }
+
+  p {
+    font-size: 2.2vmin;
+    /* font-weight: lighter; */
+    margin-left: auto;
+  }
+}

@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+
 }
 
 .item {
@@ -20,19 +21,17 @@
 }
 
 h1 {
-  text-align: center;
+
   margin-left: 2%;
   margin-right:2%;
   font-size: 3vmax;
-  font-weight: bold;
 }
 
 h3 {
-  text-align: center;
+
   margin-left: auto;
   margin-right: auto;
   font-size: 2vmax;
-  font-weight: bold;
 }
 
 p {
@@ -40,7 +39,6 @@ p {
   /* fontWeight: bold; */
   margin-left: 10%;
   margin-right: 10%;
-  font-weight: bold;
   margin-left: auto;
 }
 
@@ -125,24 +123,20 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
 @media screen and (min-width: 600px){
   h1 {
-    text-align: center;
+
     margin-left: 2%;
     margin-right:2%;
     font-size: 3vmax;
-    font-weight: bold;
   }
 
   h3 {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 2vmax;
-    font-weight: bold;
   }
 
   p {
     font-size: 1.8vmin;
-    font-weight: bold;
     margin-left: auto;
   }
 
@@ -158,24 +152,19 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
 @media only screen and (min-width: 768px) {
   h1 {
-    text-align: center;
     margin-left: 2%;
     margin-right:2%;
     font-size: 3vmin;
-    font-weight: bold;
   }
 
   h3 {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 2vmin;
-    font-weight: bold;
   }
 
   p {
     font-size: 1.8vmin;
-    font-weight: bold;
     margin-left: auto;
   }
 
@@ -191,24 +180,19 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
 @media screen and (min-width: 992px){
   h1 {
-    text-align: center;
     margin-left: 2%;
     margin-right:2%;
     font-size: 3vmin;
-    font-weight: bold;
   }
 
   h3 {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 2vmin;
-    font-weight: bold;
   }
 
   p {
     font-size: 1.8vmin;
-    font-weight: bold;
     margin-left: auto;
   }
 
@@ -224,24 +208,19 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 
 @media screen and (min-width: 1200px){
   h1 {
-    text-align: center;
     margin-left: 2%;
     margin-right:2%;
     font-size: 3vmin;
-    font-weight: bold;
   }
 
   h3 {
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 2vmin;
-    font-weight: bold;
   }
 
   p {
     font-size: 1.8vmin;
-    font-weight: bold;
     margin-left: auto;
   }
 
@@ -256,6 +235,23 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
 }
 
 @media screen and (min-width: 1400px){
+  h1 {
+    margin-left: 2%;
+    margin-right:2%;
+    font-size: 3vmin;
+  }
+
+  h3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vmin;
+  }
+
+  p {
+    font-size: 1.8vmin;
+    margin-left: auto;
+  }
+
   .nestedItem {
     max-width: 120vmin;
     min-width: 60vmin;

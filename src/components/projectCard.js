@@ -31,6 +31,7 @@ class ProjectCard extends React.Component {
               <h4>{this.props.project.title}</h4>
               <br/>
               <p>{this.props.project.description}</p>
+              <br/>
               <button> Click here to see details </button>
             </div>
           </FrontSide>
