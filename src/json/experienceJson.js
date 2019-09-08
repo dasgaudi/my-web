@@ -5,6 +5,7 @@ const experienceJson = [
         position: "Web Developer Intern",
         companyName: "Bushel",
         url: 'https://bushel.ag/',
+        imageSrc: "bushel.png",
         period: "Sep - Dec 2019",
         description: ""
     },
@@ -13,6 +14,7 @@ const experienceJson = [
         position: "iOS Developer Intern",
         companyName: "MyriadMobile",
         url: "www.myraidmobile.com",
+        imageSrc: "myriadmobile.png",
         period: "May - Aug 2019",
         description: ""
     }
