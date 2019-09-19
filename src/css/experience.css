@@ -47,11 +47,12 @@ h3 {
 }
 
 p {
+  text-align: left;
   font-size: 1.8vmax;
   margin:auto;
 
   /* fontWeight: bold; */
-  margin-left: auto;
+  margin: auto;
 }
 
 /* iPhone Xr & XSMax */
@@ -100,9 +101,10 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
   }
 
   p {
+    text-align: left;
     font-size: 1.8vmin;
     /* font-weight: lighter; */
-    margin-left: auto;
+    margin: auto;
   }
 }
 
@@ -119,9 +121,10 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
   }
 
   p {
+    text-align: left;
     font-size: 1.8vmin;
     /* font-weight: lighter; */
-    margin-left: auto;
+    margin: auto;
   }
 }
 
@@ -138,9 +141,10 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
   }
 
   p {
+    text-align: left;
     font-size: 1.6vmin;
     /* font-weight: lighter; */
-    margin-left: auto;
+    margin: auto;
   }
 }
 
@@ -158,9 +162,10 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
   }
 
   p {
+    text-align: left;
     font-size: 2.2vmin;
     /* font-weight: lighter; */
-    margin-left: auto;
+    margin: auto;
   }
 }
 
@@ -180,9 +185,10 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
   }
 
   p {
+    text-align: left;
     font-size: 2.2vmin;
     /* font-weight: lighter; */
-    margin-left: auto;
+    margin: auto;
   }
 }
 
@@ -202,8 +208,9 @@ and (max-device-width : 568px) { /* STYLES GO HERE */
   }
 
   p {
+    text-align: left;
     font-size: 2.2vmin;
     /* font-weight: lighter; */
-    margin-left: auto;
+    margin: auto;
   }
 }

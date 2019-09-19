@@ -13,7 +13,7 @@ function ExperienceCard(props) {
           <br/>
           <br/>
           <Card.Title><h1 style = {{ fontWeight: 'bold'}}>{props.experience.position}</h1></Card.Title>
-          <Card.Text>
+          <Card.Text style = {{marginLeft: '2%'}}>
             <h3><a href = {props.experience.url} style = {{color: "black", fontStyle: 'italic'}}>{props.experience.companyName}</a></h3>
             <p style = {{fontWeight: 'lighter'}}>{props.experience.period}</p>
           </Card.Text>
