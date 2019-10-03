@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom'
 import {Animated} from "react-animated-css";
 import Home from "../components/home";
